@@ -10,6 +10,7 @@ const DashBoard = () => {
   // 렌더링 간에 값을 유지할 수 있는 useRef사용
   // useRef를 사용하지 않으면 매 렌더링마다 현재 길이만 가져와서 비교 불가
   const prevSelectedPokeLength = useRef(selectedPoke.length);
+  // 굳이 useEffect?? ***** SelectedPoke 값들을
   useEffect(() => {
     const currentSelectedPokeLength = selectedPoke.length;
     if (selectedPoke.length > 6) {

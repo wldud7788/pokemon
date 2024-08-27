@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Dex from "../pages/Dex";
 import Detail from "../pages/detail";
@@ -20,6 +20,8 @@ const Router = () => {
     { img: "https://react-6-pokemon.vercel.app/assets/pokeball-13iwdk7Y.png" },
     { img: "https://react-6-pokemon.vercel.app/assets/pokeball-13iwdk7Y.png" },
   ]);
+  // selectedPoke 애초에 6개 null이나 빈 객체가 들어있는
+  // null이면 몬스터볼이 보이게
 
   // DashBoard.jsx부분의 삭제 기능
   const delCard = (id) => {
@@ -45,9 +47,9 @@ const Router = () => {
     <Context.Provider
       value={{
         pokeData,
-        setPokeData,
+        setPokeData, // 빠져도됨
         selectedPoke,
-        setSelectedPoke,
+        setSelectedPoke, //빠져도됨
         mockData,
         ball,
         setBall,

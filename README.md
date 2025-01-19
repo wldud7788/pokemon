@@ -1,8 +1,9 @@
 ### 포켓몬 도감 만들기
+작업날짜: 2024.08.16 ~ 24.08.27 <br>
+수정날짜: 2025.01.18 ~ 25.01.19 <br>
+벨로그 : [벨로그 링크](https://velog.io/@rooftop7788/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B81-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%8F%84%EA%B0%90) <br>
+[배포 url](https://pokemon-indol-three.vercel.app/)
 
-두 가지 방식으로 프로젝트를 완성했다.
-
-### [배포 url](https://pokemon-indol-three.vercel.app/)
 ### 사용기술
 
 [![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
@@ -16,6 +17,9 @@ props drilling의 불편함을 느끼기 위하여 최대한 깊게 컴포넌트
 #### 브랜치2. context
 
 props drilling의 불편함이 있는 프로젝트를 Context API로 리팩토링하여 프로젝트 완성
+
+#### 브랜치3. main
+코드 리팩토링 후
 
 ### 랜딩페이지
 

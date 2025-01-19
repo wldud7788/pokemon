@@ -47,5 +47,3 @@ props drilling의 불편함이 있는 프로젝트를 Context API로 리팩토�
 ### 해당 작업 구현사항 상세 정리
 
 [작업 구현사항 정리 링크](https://velog.io/@rooftop7788/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B81-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%8F%84%EA%B0%90)
-
-> > > > > > > 2077ce18cc582b69cbbb1895bff76c55c5a2f1e9

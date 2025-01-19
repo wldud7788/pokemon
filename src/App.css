@@ -1,0 +1,302 @@
+/* reset.css start */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset.css end */
+
+/*  WelcomePage css start*/
+.wellcome-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(127, 219, 255);
+}
+.wellcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.wellcome-content img {
+  width: 700px;
+}
+.wellcome-content button {
+  background-color: red;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+/*  WelcomePage css end*/
+
+/* PokemonCard css start */
+li.pokemonCard_wrapper {
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 23px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+/* PokemonCard css end */
+
+/* Dashboard css start */
+.dashboard {
+  /*background-color: rgb(154, 154, 219);*/
+  background-color: rgb(127, 219, 255);
+  height: auto;
+}
+.dashboard h2 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.dashboard ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.dashboard ul li {
+  border: 2px dashed rgb(185, 185, 185);
+  background-color: #f0f8ffbd;
+}
+.dashboard ul li img {
+  width: 100px;
+}
+.dashboard button {
+  background-color: #ff0000;
+  color: white;
+  border: hidden;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin-top: 6px;
+}
+
+.dashboard .selected p:nth-of-type(2) {
+  font-size: 12px;
+  font-weight: 600;
+}
+/* Dashboard css end */
+
+/* pokeList css Start */
+.pokeList ul {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  padding: 80px 131px;
+
+  background-color: rgb(7 108 147);
+}
+.pokeList ul li {
+  background-color: white;
+  cursor: pointer;
+}
+.pokeList ul li img {
+  width: 150px;
+  background-color: #ffefef;
+  border-radius: 50%;
+}
+.dashboard .pokeball_img {
+  height: 100px;
+}
+.pokeList ul li p {
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.pokeList ul li p:nth-child(1) {
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.pokeList button {
+  z-index: 9999;
+  position: relative;
+  padding: 8px 60px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-style: hidden;
+  /*background-color: rgb(218, 47, 41);*/
+  background-color: rgb(255 186 0);
+  color: white;
+}
+/* pokeList css end */
+
+/* detail info css start */
+.detail_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 40px;
+  background-color: rgb(7 137 187);
+}
+.detail_info div {
+  background-color: rgb(93 194 233);
+  text-align: center;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 13px 23px 16px;
+  color: white;
+}
+.detail_info p:nth-of-type(3) {
+  text-wrap: wrap;
+  width: 324px;
+}
+.detail_info img {
+  width: 300px;
+  background-color: #c0edffbf;
+  border-radius: 30px;
+}
+.detail_info a {
+  text-decoration: none;
+  background-color: rgb(255 165 0);
+  color: white;
+  border-radius: 30px;
+  padding: 5px 16px;
+  margin-top: 20px;
+}
+.detail_info p:nth-of-type(1) {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+}
+.detail_info p:nth-of-type(3) {
+  word-break: keep-all;
+}
+/* detail info css end */

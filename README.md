@@ -2,6 +2,7 @@
 
 두 가지 방식으로 프로젝트를 완성했다.
 
+### [배포 url](https://pokemon-indol-three.vercel.app/)
 ### 사용기술
 
 [![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)

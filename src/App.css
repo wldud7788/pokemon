@@ -127,25 +127,31 @@ table {
 
 /*  WelcomePage css start*/
 .wellcome-page {
+  box-sizing: border-box;
+  padding: 30px;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(127, 219, 255);
+  position: relative;
 }
 .wellcome-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 .wellcome-content img {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
 }
 .wellcome-content button {
-  background-color: red;
+  background-color: #21386e;
   border: none;
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   height: 40px;
   border-radius: 15px;
   color: white;
@@ -162,6 +168,11 @@ li.pokemonCard_wrapper {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 100%;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* PokemonCard css end */
 
@@ -170,6 +181,7 @@ li.pokemonCard_wrapper {
   /*background-color: rgb(154, 154, 219);*/
   background-color: rgb(127, 219, 255);
   height: auto;
+  padding: 10px;
 }
 .dashboard h2 {
   text-align: center;
@@ -181,11 +193,14 @@ li.pokemonCard_wrapper {
   color: white;
 }
 .dashboard ul {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 20px;
+  padding-bottom: 50px;
 }
 .dashboard ul li {
   border: 2px dashed rgb(185, 185, 185);
@@ -210,14 +225,18 @@ li.pokemonCard_wrapper {
 /* Dashboard css end */
 
 /* pokeList css Start */
+.pokeList {
+  background-color: rgb(7 108 147);
+}
 .pokeList ul {
   display: flex;
   justify-content: center;
   gap: 35px;
   flex-wrap: wrap;
-  padding: 80px 131px;
+  padding: 80px 10px;
+  max-width: 1000px;
 
-  background-color: rgb(7 108 147);
+  margin: 0 auto;
 }
 .pokeList ul li {
   background-color: white;
